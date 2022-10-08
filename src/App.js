@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import B1 from './background_image1.jpeg';
 import B2 from './background_image2.jpeg';
 import B3 from './background_image3.jpeg';
+import B4 from './images/resize.jpeg';
 
 import './App.css';
 import Birthday from './BirthDay';
@@ -18,10 +19,10 @@ function App() {
       switch(image.id) {
         case 1: setImage({ id: 2, img: B2 }); break;
         case 2: setImage({ id: 3, img: B3 }); break;
-        case 3: setImage({ id: 1, img: B1 }); break;
+        case 3: setImage({ id: 1, img: B4 }); break;
         default: setImage({ id: 1, img: B1 })
       }
-    }, 1000);
+    }, 5000);
     return () => {
       clearInterval(interval);
     }
