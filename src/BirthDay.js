@@ -15,7 +15,7 @@ const Birthday = ({ name, day, month }) => {
     // This is if not enough params are provided
     name = 'Riya'; // Name of the Person
     month = 10; // Month of the Birthday
-    day = 8; // Day of the Birthday
+    day = 14; // Day of the Birthday
   }
 
   // get current time
