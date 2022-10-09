@@ -106,7 +106,7 @@ const Birthday = ({ name, day, month }) => {
       {!isItBday && (
         <>
           <div className='birthdate'>
-            Birth-Date: {day} {monthBday} {currentYear}
+            Birthday: {day} {monthBday}
           </div>
         </>
       )}
